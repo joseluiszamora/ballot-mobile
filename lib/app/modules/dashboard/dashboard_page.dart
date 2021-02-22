@@ -26,7 +26,13 @@ class DashboardPage extends StatelessWidget {
                 Text('BIENVENIDO', style: Styles().titleOne()),
                 SizedBox(height: 30.0),
                 ButtonPrincipalWidget(
-                    title: 'Realizar Reporte',
+                    title: 'Realizar Reporte Alcaldia',
+                    onPressed: () {
+                      Get.to(BallotPage());
+                    }),
+                SizedBox(height: 20),
+                ButtonPrincipalWidget(
+                    title: 'Realizar Reporte Gobernación',
                     onPressed: () {
                       Get.to(BallotPage());
                     }),

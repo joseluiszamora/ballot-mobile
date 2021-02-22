@@ -16,11 +16,11 @@ class ButtonPrincipalWidget extends StatelessWidget {
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(80.0)),
         padding: EdgeInsets.all(0.0),
         child: Ink(
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(30.0)),
+          decoration: BoxDecoration(borderRadius: BorderRadius.circular(30.0)),
           child: Container(
               constraints: BoxConstraints(maxWidth: 300.0, minHeight: 50.0),
               alignment: Alignment.center,
+              color: Colors.blue,
               child: Text(
                 title,
                 textAlign: TextAlign.center,
