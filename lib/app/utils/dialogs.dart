@@ -31,11 +31,7 @@ void showDialogAlert(
           buttonTitle,
           style: TextStyle(color: Colors.white, fontSize: 20),
         ),
-        onPressed: firstButtonPresed,
-        gradient: LinearGradient(colors: [
-          Color.fromRGBO(116, 116, 191, 1.0),
-          Color.fromRGBO(52, 138, 199, 1.0)
-        ]),
+        onPressed: firstButtonPresed
       )
     ],
   ).show();
@@ -127,11 +123,7 @@ void showDialogPin(
           buttonTitle,
           style: TextStyle(color: Colors.white, fontSize: 20),
         ),
-        onPressed: onCustomButtonPresed,
-        gradient: LinearGradient(colors: [
-          Color.fromRGBO(116, 116, 191, 1.0),
-          Color.fromRGBO(52, 138, 199, 1.0)
-        ]),
+        onPressed: onCustomButtonPresed
       ),
     ],
   ).show();

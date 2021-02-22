@@ -21,11 +21,7 @@ class LoginPage extends StatelessWidget {
                               offset: Offset(2, 4),
                               blurRadius: 5,
                               spreadRadius: 2)
-                        ],
-                        gradient: LinearGradient(
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                            colors: [Color(0x132238), Color(0x0075A8)])),
+                        ]),
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,

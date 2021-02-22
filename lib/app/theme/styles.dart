@@ -20,11 +20,7 @@ class Styles {
   final double fontSizeH5 = 15.0;
 
   BoxDecoration backgroundMain() => BoxDecoration(
-          gradient: LinearGradient(
-        begin: Alignment.bottomCenter,
-        end: Alignment.topCenter,
-        colors: [colorBackgroundPrimary, colorBackgroundSecondary],
-      ));
+       );
 
   BoxDecoration bottomBarMain() => BoxDecoration(
           boxShadow: <BoxShadow>[

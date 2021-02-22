@@ -23,7 +23,8 @@ class LoginController extends GetxController {
   }
 
   Future<void> submit() async {
-    try {
+    Get.offNamed(AppRoutes.DASHBOARD);
+    /*try {
       final Token authRequestToken = await _authenticationRepository.signIn(
         username: _username,
         password: _password,
@@ -54,6 +55,6 @@ class LoginController extends GetxController {
           ],
         ),
       );
-    }
+    }*/
   }
 }

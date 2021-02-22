@@ -13,7 +13,7 @@ class AuthAPI {
 
   Future<Token> signIn(
       {@required String username, @required String password}) async {
-    final response = await _dio.post("/api/v1/auth/mobile/sign-in",
+    final response = await _dio.post("api/v1/auth/sign-in",
         data: {"username": username, "password": password});
 
     return Token.fromJson(response.data);

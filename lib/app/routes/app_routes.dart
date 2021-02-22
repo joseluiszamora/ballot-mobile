@@ -1,6 +1,8 @@
 class AppRoutes {
   static const DASHBOARD = "dashboard";
   static const LOGIN = "login";
+  static const BALLOT_REPORT = "ballot";
+
   static const CHECK_BALANCE = "check_balance";
   static const DNI_FORM = "dni_form";
   static const UID_FORM = "uid_form";

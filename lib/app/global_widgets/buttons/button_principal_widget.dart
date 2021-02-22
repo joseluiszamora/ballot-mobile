@@ -17,11 +17,6 @@ class ButtonPrincipalWidget extends StatelessWidget {
         padding: EdgeInsets.all(0.0),
         child: Ink(
           decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [Styles().colorPrimary, Styles().colorSecondary],
-                begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
-              ),
               borderRadius: BorderRadius.circular(30.0)),
           child: Container(
               constraints: BoxConstraints(maxWidth: 300.0, minHeight: 50.0),
