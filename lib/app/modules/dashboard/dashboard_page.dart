@@ -3,10 +3,8 @@ import 'package:get/route_manager.dart';
 import 'package:mobiletelefericovirtual/app/global_widgets/buttons/button_principal_widget.dart';
 import 'package:mobiletelefericovirtual/app/global_widgets/buttons/button_secondary_widget.dart';
 import 'package:mobiletelefericovirtual/app/global_widgets/app_bar/main_app_bar_widget.dart';
+import 'package:mobiletelefericovirtual/app/modules/ballot/ballot_gob_page.dart';
 import 'package:mobiletelefericovirtual/app/modules/ballot/ballot_page.dart';
-import 'package:mobiletelefericovirtual/app/modules/check_balance/check_balance_page.dart';
-import 'package:mobiletelefericovirtual/app/modules/register/step_one/step_one_form.dart';
-import 'package:mobiletelefericovirtual/app/routes/app_routes.dart';
 import 'package:mobiletelefericovirtual/app/theme/styles.dart';
 
 class DashboardPage extends StatelessWidget {
@@ -24,7 +22,14 @@ class DashboardPage extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   children: <Widget>[
                 Text('BIENVENIDO', style: Styles().titleOne()),
-                SizedBox(height: 30.0),
+                SizedBox(height: 40.0),
+                Text("Usuario: Administrador", style: TextStyle(fontSize: 20)),
+                SizedBox(height: 10.0),
+                Text("Recinto: Colegio Eduardo Avaroa",
+                    style: TextStyle(fontSize: 20)),
+                SizedBox(height: 10.0),
+                Text("Mesa: 12", style: TextStyle(fontSize: 20)),
+                SizedBox(height: 40.0),
                 ButtonPrincipalWidget(
                     title: 'Realizar Reporte Alcaldia',
                     onPressed: () {
@@ -34,9 +39,9 @@ class DashboardPage extends StatelessWidget {
                 ButtonPrincipalWidget(
                     title: 'Realizar Reporte Gobernación',
                     onPressed: () {
-                      Get.to(BallotPage());
+                      Get.to(BallotGobPage());
                     }),
-                SizedBox(height: 20),
+                SizedBox(height: 30),
                 ButtonSecondaryWidget(
                     title: "Salir",
                     onPressed: () {

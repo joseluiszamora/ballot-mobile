@@ -1,6 +1,7 @@
 import 'package:get/route_manager.dart';
 import 'package:mobiletelefericovirtual/app/modules/auth/login_binding.dart';
 import 'package:mobiletelefericovirtual/app/modules/auth/login_page.dart';
+import 'package:mobiletelefericovirtual/app/modules/ballot/ballot_gob_page.dart';
 import 'package:mobiletelefericovirtual/app/modules/ballot/ballot_image_page.dart';
 import 'package:mobiletelefericovirtual/app/modules/ballot/ballot_page.dart';
 import 'package:mobiletelefericovirtual/app/modules/ballot/ballot_success_page.dart';
@@ -37,6 +38,7 @@ class AppPages {
         page: () => StepOneFormPage(),
         binding: StepOneFormBinding()),
     GetPage(name: AppRoutes.BALLOT_REPORT, page: () => BallotPage()),
+    GetPage(name: AppRoutes.BALLOT_GOB_REPORT, page: () => BallotGobPage()),
     GetPage(name: AppRoutes.BALLOT_IMAGE_REPORT, page: () => BallotImagePage()),
     GetPage(name: AppRoutes.BALLOT_SUCCESS, page: () => BallotSuccessPage()),
   ];

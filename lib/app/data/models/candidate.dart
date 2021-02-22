@@ -113,14 +113,14 @@ class Candidate {
           name: 'Franklin Flores',
           politicalParty: 'MAS-IPSP',
           position: 'GOBERNACION',
-          image: 'assets/ballot/nologo.png',
+          image: 'assets/ballot/mas.png',
           votes: 0),
       Candidate(
           candidateId: 2,
           name: 'Santos Quispe',
           politicalParty: 'Jallalla',
           position: 'GOBERNACION',
-          image: 'assets/ballot/nologo.png',
+          image: 'assets/ballot/jallalla.png',
           votes: 0),
       Candidate(
           candidateId: 3,
@@ -155,7 +155,7 @@ class Candidate {
           name: 'Beatriz Alvarez',
           politicalParty: 'Sol.bo',
           position: 'GOBERNACION',
-          image: 'assets/ballot/nologo.png',
+          image: 'assets/ballot/solbo.png',
           votes: 0),
       Candidate(
           candidateId: 8,
@@ -176,7 +176,7 @@ class Candidate {
           name: 'Juan Choque',
           politicalParty: 'Venceremos',
           position: 'GOBERNACION',
-          image: 'assets/ballot/nologo.png',
+          image: 'assets/ballot/venceremos.jpg',
           votes: 0),
       Candidate(
           candidateId: 11,
